@@ -1,0 +1,4 @@
+.:
+beini.menu
+bzimage
+filelist.txt

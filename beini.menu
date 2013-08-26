@@ -1,0 +1,7 @@
+# ------====> Beini Linux <====------
+LABEL Beini 1.2.3
+KERNEL er/plugins/beini/bzimage
+APPEND initrd=er/plugins/beini/tinycore.gz nfsmount=10.0.0.1:/tftpboot/er/shares/beini/ tce=nfs/tce
+text help
+                 Tiny Core Beini Linux
+endtext
